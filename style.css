@@ -334,3 +334,103 @@ input.error:focus {
   font: 400 10px/12px Roboto, arial, helvetica, sans-serif;
   }
 }
+
+@media (min-width: 401px) and (max-width: 768px) {
+  .header {
+    padding: 0 0 0 30px;
+  }
+
+  .header__logo {
+    padding-top: 40px;
+    width: 93px;
+    height: 24px;
+  }
+
+.header__logo-image {
+    max-width: 100%;
+    height: auto;
+}
+
+  .article-header {
+    background-size: 50%;
+    background-position: right 50px top 130px;
+    padding: 0 9% 150px 9%;
+}
+
+  .article-header__title {
+    width: 56%;
+    font: 800 25px/35px Gilroy, sans-serif;
+  }
+
+  .article-header__subtitle {
+    font: 800 15px/21px Gilroy, sans-serif;
+  }
+
+  .article-header__text {
+    font: 300 10px/13px Gilroy, sans-serif;
+  }
+
+  .card {
+    height: 300px;
+    padding: 45px 25px 50px 25px;
+  }
+
+  .card-image {
+    padding:0 10px 0 10px;
+    max-width: 80%;
+  }
+
+  .card-title {
+    font: 800 16px/18px Gilroy, sans-serif;
+  }
+
+  .card-text {
+    font: 800 11px/16px Gilroy, sans-serif;
+    padding: 0 20px 30px 20px;
+  }
+
+  .article-content__text {
+    font: 300 15px/20px Gilroy, sans-serif;
+  }
+
+  .txt {
+    font: 300 15px/18px Gilroy, arial, helvetica, sans-serif;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1235px) {
+   .article-header {
+    background-size: 42%;
+    background-position: right 130px top 50px;
+  }
+
+  .article-header__title {
+    font: 800 33px/43px Gilroy, sans-serif;
+    width: 55%;
+  }
+
+  .article-header__subtitle {
+    font: 800 20px/26px Gilroy, sans-serif;
+  }
+
+  .article-header__text {
+    font: 300 15px/18px Gilroy, sans-serif;
+  }
+
+  .card-image {
+    padding:0 10px 0 10px;
+    max-width: 80%;
+  }
+
+  .card-title {
+    font: 800 23px/30px Gilroy, sans-serif;
+  }
+
+  .card-text {
+    font: 800 14px/19px Gilroy, sans-serif;
+  }
+
+  .article-content__text {
+    font: 300 22px/27px Gilroy, sans-serif;
+  }
+}
