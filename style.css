@@ -204,7 +204,7 @@ input.error:focus {
 .copyright {
   margin: 0;
   padding-top: 50px;
-  font: 400 15/18 Roboto, arial, helvetica, sans-serif;
+  font: 400 15px/18px Roboto, arial, helvetica, sans-serif;
   color: #FFF;
 }
 
